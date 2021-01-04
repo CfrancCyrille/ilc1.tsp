@@ -29,31 +29,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T | Testing is important, because it's useful to the program | 
+| getX | D | It's a simple getter | 
+| getY | D | It's a simple getter | 
+| toString | I | It's a simple toString function, you just have to inspect the output | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | D | Test not necessary |
+| getCity  | D | It's a getter |
+| getDistance  | T | It's a getter, but with an important condition |
+| getFitness  | I | It needs a static test |
+| setCity  | D | It's a setter |
+| tourSize  | D | It's a getter |
+| toString  | I | It's a simple toString function, you just have to inspect the output |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T | Testing is important to the algorithm |
+| getTour  | D | It's a getter |
+| populationSize  | D | It's a getter |
+| saveTour  | D | It's a setter |
 
 ## Functions to test now
 

@@ -1,6 +1,11 @@
 package tsp.lee.jacobson;
 
-public class City {
+/**
+ * @author TebaiOsama
+ */
+
+//Creates a city object with its coordinates
+public class City { 
     int x;
     int y;
     
@@ -36,7 +41,7 @@ public class City {
     }
     
     @Override
-    public String toString(){
+    public String toString(){ 
         return getX()+", "+getY();
     }
 }

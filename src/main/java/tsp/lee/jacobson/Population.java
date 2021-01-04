@@ -1,5 +1,10 @@
 package tsp.lee.jacobson;
 
+/**
+ * @author TebaiOsama
+ */
+
+//Creates a population of tours
 public class Population {
 
     // Holds population of tours
