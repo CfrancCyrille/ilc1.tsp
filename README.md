@@ -29,31 +29,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T | cette fonction a besoin d'être testée | 
+| getX | D | un getter n'a pas besoin d'être testé si il fonctionne | 
+| getY | D | un getter n'a pas besoin d'être testé si il fonctionne | 
+| toString | I | une simple vérification suffit | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  |D  | cette fonction a besoin d'être testée |
+| getCity  |D  | un getter n'a pas besoin d'être testé si il fonctionne |
+| getDistance  | T | Il y a ici une part important du programme |
+| getFitness  | D | un getter n'a pas besoin d'être testé si il fonctionne |
+| setCity  | D |  un getter n'a pas besoin d'être testé si il fonctionne|
+| tourSize  | D |un getter n'a pas besoin d'être testé si il fonctionne  |
+| toString  | I | une simple vérification suffit  |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T | Il y a ici une part important du programme  |
+| getTour  | D | un getter n'a pas besoin d'être testé si il fonctionne |
+| populationSize  | D |un getter n'a pas besoin d'être testé si il fonctionne  |
+| saveTour  |D  | un getter n'a pas besoin d'être testé si il fonctionne |
 
 ## Functions to test now
 
