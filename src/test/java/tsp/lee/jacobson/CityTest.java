@@ -11,6 +11,12 @@ public class CityTest {
 	City ville2 = new City(0, 2);
 	City ville3 = new City(2, 0);
 
+
+	/**
+	 * Test de la méthode distanceTo de la classe City
+	 * When on calcule la distance d'une ville à elle-même
+	 * Then 0
+	 */
 	@Test
 	public void distanceTo_ville1FromVille1_0() {
 		double expected = 0;
@@ -18,7 +24,11 @@ public class CityTest {
 		assertEquals(expected, actual, 0.0);
 	}
 
-	// test de la premiere ville à la deuxième
+	/**
+	 * Test de la méthode distanceTo de la classe City
+	 * When de la premiere ville à la deuxième
+	 * Then 2
+	 */
 	@Test
 	public void distanceTo_ville2FromVille1_2(){
 		double expected = 2;
@@ -26,7 +36,11 @@ public class CityTest {
 		assertEquals(expected, actual, 0.0);
 	}
 
-	// test de la première à la troisième
+	/**
+	 * Test de la méthode distanceTo de la classe City
+	 * When de la premiere ville à la troisième
+	 * Then 2
+	 */
 	@Test
 	public void distanceTo_ville3FromVille1_2(){
 		double expected = 2;
@@ -35,6 +49,11 @@ public class CityTest {
 	}
 
 	// test du calcule avec une ville qui a des coordonnées négatives
+	/**
+	 * Test de la méthode distanceTo de la classe City
+	 * When de la premiere ville à une ville aux coordonnées négatives
+	 * Then 2
+	 */
 	@Test
 	public void distanceTo_NegativeFromVille1_2(){
 		City negative = new City(-2,0);
@@ -44,8 +63,11 @@ public class CityTest {
 	}
 
 
-	// test si l'argument donné est nul
-	@Test(expected=NullPointerException.class)
+	/**
+	 * Test de la méthode distanceTo de la classe City
+	 * When l'argument en paramètre est null
+	 * Then NullPointerException
+	 */	@Test(expected=NullPointerException.class)
 	public void distanceTo_Null_NullPointerException() {
 		double actual = ville1.distanceTo(null);
 	}

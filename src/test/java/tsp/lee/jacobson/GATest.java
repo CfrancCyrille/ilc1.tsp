@@ -6,9 +6,6 @@ import org.junit.Test;
 
 public class GATest {
 
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
+
 
 }
