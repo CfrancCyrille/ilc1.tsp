@@ -1,5 +1,10 @@
 package tsp.lee.jacobson;
 
+/**
+ *
+ * This class represents a Population in the Traveling Salesman Problem
+ *
+ */
 public class Population {
 
     // Holds population of tours
