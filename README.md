@@ -29,31 +29,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T | A tester | 
+| getX | D | Accesseur | 
+| getY | D | Accesseur | 
+| toString | I | surcharge de fonction , fonction basique  | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | D | Recherche dans un tableau |
+| getCity  | D | Accesseur |
+| getDistance  | T | A tester |
+| getFitness  | D | Accesseur |
+| setCity  | D | appel à une fonction |
+| tourSize  | D | appel à une fonction |
+| toString  | I | surcharge de fonction , fonction basique |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T | A tester |
+| getTour  | D | Accesseur |
+| populationSize  | D | Accesseur |
+| saveTour  | D | Fonction simple |
 
 ## Functions to test now
 
