@@ -1,5 +1,11 @@
 package tsp.lee.jacobson;
-
+/**
+ * 
+ * @author Mikrail
+ *
+ * On creer une Population constituee de tour pour l'algorithme genetique.
+ *
+ */
 public class Population {
 
     // Holds population of tours

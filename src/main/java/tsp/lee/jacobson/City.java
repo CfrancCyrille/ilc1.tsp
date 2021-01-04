@@ -1,5 +1,12 @@
 package tsp.lee.jacobson;
-
+/**
+ * 
+ * @author Mikrail
+ *
+ * Classe permettant de definir et d'obtenir les coordonnees d'une ville.
+ * On peut egalement obtenir la distance entre 2 villes.
+ *
+ */
 public class City {
     int x;
     int y;
