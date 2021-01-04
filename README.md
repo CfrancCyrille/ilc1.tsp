@@ -29,31 +29,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T | need to test, fundamental for the algorithm  | 
+| getX | D | no need to test a getter | 
+| getY | D | no need to test a getter | 
+| toString | I | no need to test, function well known  | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | D | no need to test |
+| getCity  | D | no need to test a getter |
+| getDistance  | T | too much conditions, fundamental to test  |
+| getFitness  | I | simple static test (visual) |
+| setCity  | D | no need to test a setter |
+| tourSize  | D | no need to test a getter |
+| toString  | I | no need to test, function well known  |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T | fundamental to test for the algorithm |
+| getTour  | D | no need to test a getter |
+| populationSize  | D | no need to test a getter |
+| saveTour  | D | no need to test a setter |
 
 ## Functions to test now
 
