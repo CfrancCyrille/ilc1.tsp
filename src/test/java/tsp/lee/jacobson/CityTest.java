@@ -69,4 +69,16 @@ public class CityTest {
 
 		assertEquals(actual, expected,0);
 	}
+
+	@Test(expected = NullPointerException.class)
+	/**
+	 * Given function distanceTo
+	 * When distance between a city and nothing
+	 * Then NullPointerException
+	 */
+	public void distanceTo_CityAndNull_NullPointerException(){
+		City A = new City(0,0);
+
+		double actual = A.distanceTo(null);
+	}
 }
