@@ -29,31 +29,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T |  | 
+| getX | D | Gets city's x coordinate | 
+| getY | D | Gets city's y coordinate | 
+| toString | I | Display city coordinates | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | D | Check if the tour contains a city |
+| getCity  | D | Gets a city from the tour |
+| getDistance  | T |  |
+| getFitness  | D | Gets the tours fitness |
+| setCity  | D | Sets a city in a certain position within a tour |
+| tourSize  | D | Get number of cities on our tour |
+| toString  | I | Display the list of cities |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | D | Gets the best tour in the population |
+| getTour  | D | Gets a tour from population  |
+| populationSize  | D | Gets population size |
+| saveTour  | D | Set a tower |
 
 ## Functions to test now
 

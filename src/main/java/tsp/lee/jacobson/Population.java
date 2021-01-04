@@ -1,5 +1,8 @@
 package tsp.lee.jacobson;
-
+/**
+ * classe décrivant la population
+ * @author Celine Waldner
+ */
 public class Population {
 
     // Holds population of tours

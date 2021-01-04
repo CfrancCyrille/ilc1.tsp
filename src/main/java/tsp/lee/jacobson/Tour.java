@@ -1,5 +1,8 @@
 package tsp.lee.jacobson;
-
+/**
+ * class describing the tour with cities
+ * @author Celine Waldner
+ */
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -7,7 +10,7 @@ public class Tour{
 
     // Holds our tour of cities
     private ArrayList<City> tour = new ArrayList<City>();
-    // Cache
+    // CacheArrayList<City> tour = new ArrayList<City>();
     private double fitness = 0;
     private int distance = 0;
     
