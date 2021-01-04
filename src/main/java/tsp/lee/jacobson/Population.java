@@ -1,5 +1,10 @@
 package tsp.lee.jacobson;
 
+/**
+ * Classe réprésentant une population
+ * Une population est composé d'un ensemble d'individu
+ * Ici un individu est un Tour
+ */
 public class Population {
 
     // tableau qui contient les Tours de la population

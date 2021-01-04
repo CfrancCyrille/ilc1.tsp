@@ -3,6 +3,9 @@ package tsp.lee.jacobson;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * Classe Tour, un Tour est constitué d'un ensemble de ville
+ */
 public class Tour{
 
     // Tableau des villes qui composent le Tour
