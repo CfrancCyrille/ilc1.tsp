@@ -1,5 +1,8 @@
 package tsp.lee.jacobson;
-
+/**
+ * Class modele de le ville avec ses coorodnée et sa distance par rapport à une autre ville
+ * @author Sevrin
+ */
 public class City {
     int x;
     int y;
