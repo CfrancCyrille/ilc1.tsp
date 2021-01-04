@@ -28,5 +28,10 @@ public class CityTest {
             City c2 = new City(6,2);
             assertEquals(c2.distanceTo(c1), c1.distanceTo(c2), 0.1);
         }
-
+        
+        @Test(expected=NullPointerException.class)
+        public void testDistanceTo_Null_NullPointerException() {
+            City ville = new City(2, 3);
+            double result = ville.distanceTo(null);
+        }
 }
