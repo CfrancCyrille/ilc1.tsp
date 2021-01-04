@@ -1,5 +1,9 @@
 package tsp.lee.jacobson;
 
+/**
+ * contains coordinates of the city and methods to compute distance
+ * between this city and an other one
+ */
 public class City {
     int x;
     int y;
