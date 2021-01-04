@@ -3,6 +3,11 @@ package tsp.lee.jacobson;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ *
+ * This class represents a Tour in the Traveling Salesman Problem
+ *
+ */
 public class Tour{
 
     // Holds our tour of cities
