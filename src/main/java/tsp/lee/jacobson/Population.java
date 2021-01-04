@@ -1,5 +1,14 @@
 package tsp.lee.jacobson;
 
+
+/**
+ * 
+ * @author thomas
+ * Créer une population de tour, permettant
+ * l'évolution de la population avec une selection
+ * de la meilleure en fonction de la fitness
+ *
+ */
 public class Population {
 
     // Holds population of tours

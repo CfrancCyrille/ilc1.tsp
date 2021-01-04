@@ -1,5 +1,14 @@
 package tsp.lee.jacobson;
 
+
+/**
+ * 
+ * @author thomas
+ *	Créer une ville située à des coordonnées aléatoires et possèdant
+ *	une fonction permettant de retourner la distance avec une autre ville
+ */
+
+
 public class City {
     int x;
     int y;
