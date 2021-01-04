@@ -1,10 +1,20 @@
 package tsp.lee.jacobson;
 
+/**
+ * une classe correspondant à une population de l'algorithme génétique et possèdant un tableau de voyages
+ * @author Bilo
+ *
+ */
 public class Population {
 
     // Holds population of tours
     Tour[] tours;
 
+    /**
+     * 
+     * @param populationSize
+     * @param initialise
+     */
     // Construct a population
     public Population(int populationSize, boolean initialise) {
         tours = new Tour[populationSize];
