@@ -12,7 +12,7 @@ public class TourTest {
     City ville2= new City(2,0);
 
 	@Test
-	public void test_getDistance_4() {
+	public void getDistance_2DifferentsCity_4() {
 		ArrayList<City> cityList1 = new ArrayList<City>();
 	    cityList1.add(ville1);
 	    cityList1.add(ville2);
@@ -23,7 +23,7 @@ public class TourTest {
 	}
 
     @Test
-	public void test_getDistance_Zero() {
+	public void getDistance_OneCity_Zero() {
     	ArrayList<City> cityList2 = new ArrayList<City>();
         cityList2.add(ville2);
         Tour tour2 = new Tour(cityList2);
