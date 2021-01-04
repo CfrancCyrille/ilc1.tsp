@@ -29,31 +29,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | Test |  | 
+| getX | Define | C'est un get | 
+| getY | Define | C'est un get | 
+| toString | Inspect | Voir si le toString est adapté  | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | Define | Fonction fourni par la librairie ArrayList |
+| getCity  | Define | C'est un get  |
+| getDistance  | Test |  |
+| getFitness  | Define | C'est un get |
+| setCity  | Define | C'est un get |
+| tourSize  | Define | C'est un get |
+| toString  | Inspect | Voir si le toString est adapté |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | Define | C'est un get |
+| getTour  | Define | C'est un get |
+| populationSize  | Define | C'est un get |
+| saveTour  | Define | C'est un set |
 
 ## Functions to test now
 
