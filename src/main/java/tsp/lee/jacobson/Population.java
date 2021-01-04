@@ -1,5 +1,8 @@
 package tsp.lee.jacobson;
-
+/**
+ * Représente une nouvelle génération de tour
+ * @author GUILLERME Franck
+ */
 public class Population {
 
     // Holds population of tours

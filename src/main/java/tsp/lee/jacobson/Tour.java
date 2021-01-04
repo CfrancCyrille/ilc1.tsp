@@ -3,6 +3,10 @@ package tsp.lee.jacobson;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * Génère une tourné du voyageur
+ * @author GUILLERME Franck
+ */
 public class Tour{
 
     // Holds our tour of cities
