@@ -1,5 +1,9 @@
 package tsp.lee.jacobson;
 
+/**
+ * Représente les villes où le voyageur de commerce doit aller 
+ * @author GUILLERME Franck
+ */
 public class City {
     int x;
     int y;
