@@ -29,31 +29,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T | Fonction a tester | 
+| getX | D | accesseur pas besoin faire de test | 
+| getY | D | accesseur pas besoin faire de test | 
+| toString | I | Surcharge de fonction déjà testé | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | D | pas besoin de testé, fonction déjà existante |
+| getCity  | D | accesseur pas besoin faire de test |
+| getDistance  | T | Fonction a tester |
+| getFitness  | D | accesseur pas besoin faire de test |
+| setCity  | D | mutateur pas besoin de faire de test |
+| tourSize  | D | pas besoin de testé, fonction déjà existante |
+| toString  | I | Surcharge de fonction déjà testé |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | D | accesseur pas besoin faire de test |
+| getTour  | D | accesseur pas besoin faire de test |
+| populationSize  | D | accesseur pas besoin faire de test |
+| saveTour  | D | pas besoin de test |
 
 ## Functions to test now
 
