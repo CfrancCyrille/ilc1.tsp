@@ -6,9 +6,18 @@ import org.junit.Test;
 
 public class GATest {
 
+	
+	
+	@Test(expected = ArrayIndexOutOfBoundsException.class)
+    public void testEvolvePopulationNullArrayIndexOutOfBoundsException() {
+        Population nullPopulation = new Population(0, true);
+        Population newPopulation = GA.evolvePopulation(nullPopulation);
+    }
+	
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testEvolvePopulation() {
+		
+		
 	}
 
 }

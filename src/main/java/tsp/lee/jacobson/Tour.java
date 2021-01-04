@@ -3,6 +3,12 @@ package tsp.lee.jacobson;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * 
+ * @author thomas
+ *	Permet de créer une tour dans la ville souhaitée
+ *	et de calculer sa distance aux autres tours 
+ */
 public class Tour{
 
     // Holds our tour of cities
