@@ -29,31 +29,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T  |  A tester, fonction importante   | 
+| getX | D | C'est un accesseur, pas besoin de tester | 
+| getY | D | C'est un accesseur, pas besoin de tester | 
+| toString | I  | Surcharge d'une fonction basique, pas besoin de tester | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | D | Recherche d'un élement dans un tableau |
+| getCity  | D  |  Accesseur, pas besoin de tester |
+| getDistance  | T | A tester, fonction importante |
+| getFitness  | A | Test statique simple visuelllement |
+| setCity  | D | Accesseur, pas besoin de tester |
+| tourSize  | D | Accesseur, pas besoin de tester |
+| toString  | I | Surchage d'une fonction basique |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T | A tester, fonction importante |
+| getTour  | D | Accesseur, pas besoin de tester |
+| populationSize  | D | Accesseur, pas besoin de tester |
+| saveTour  | D | Fonction basique, pas besoin de tester |
 
 ## Functions to test now
 
