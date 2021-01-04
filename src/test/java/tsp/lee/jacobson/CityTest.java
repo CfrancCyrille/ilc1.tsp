@@ -29,5 +29,12 @@ public class CityTest {
 		int actual=(int)v2.distanceTo(v1);
 		assertEquals(expected, actual);
 	}
+	
+	@Test
+	public void distanceTo_V1ToNull_Null() {
+		Class<NullPointerException> expected=NullPointerException.class;
+		int actual=(int)v1.distanceTo(null);
+		//assertEquals(expected, actual);
+	}
 
 }
