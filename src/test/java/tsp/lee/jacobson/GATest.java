@@ -6,9 +6,11 @@ import org.junit.Test;
 
 public class GATest {
 
+	
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void evolvePopulation_ZeroPopulation_False() {
+		Population pop0 = new Population(0,true);
+		boolean expected = false;
 	}
 
 }

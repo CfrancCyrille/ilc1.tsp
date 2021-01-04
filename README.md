@@ -29,31 +29,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T |  | 
+| getX | D  | Pas besoin de tester un getter  | 
+| getY | D  | Pas besoin de tester un getter  | 
+| toString | I  | Pas besoin de tester une fonction toString qui convertit juste en String  | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | D  | Pas besoin de tester un getter  |
+| getCity  | D  | Pas besoin de tester un getter  |
+| getDistance  | T  |  |
+| getFitness  | D  | Pas besoin de tester un getter  |
+| setCity  | D  | Pas besoin de tester un setter  |
+| tourSize  | D  | Pas besoin de tester un getter  |
+| toString  | I  | Pas besoin de tester une fonction toString qui convertit juste en String  |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | D  | Pas besoin de tester un getter  |
+| getTour  | D  | Pas besoin de tester un getter  |
+| populationSize  | D  | Pas besoin de tester un getter  |
+| saveTour  | D  | Pas besoin de tester un setter  |
 
 ## Functions to test now
 

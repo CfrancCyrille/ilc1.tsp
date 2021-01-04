@@ -2,7 +2,14 @@ package tsp.lee.jacobson;
 
 import java.util.ArrayList;
 import java.util.Collections;
-
+/**
+ * 
+ * @author Mikrail
+ *
+ * On creer des tours qui sont constitues de plusieurs villes.
+ * On peut avoir la distance global pour faire un tour en passant par chaque ville
+ *
+ */
 public class Tour{
 
     // Holds our tour of cities
