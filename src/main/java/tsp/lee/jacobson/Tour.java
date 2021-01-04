@@ -3,6 +3,11 @@ package tsp.lee.jacobson;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * @author TebaiOsama
+ */
+
+//Creates a tour object with a random individual and a corresponding fitness value
 public class Tour{
 
     // Holds our tour of cities
