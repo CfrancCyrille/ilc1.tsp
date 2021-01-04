@@ -1,5 +1,9 @@
 package tsp.lee.jacobson;
-
+/**
+ * 
+ * Classe pour creer une population avec des fonctions de fittness pour évaluer la solution trouver
+ * 
+ */
 public class Population {
 
     // Holds population of tours

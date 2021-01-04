@@ -2,7 +2,11 @@ package tsp.lee.jacobson;
 
 import java.util.ArrayList;
 import java.util.Collections;
-
+/**
+ * 
+ * Classe pour contenir une liste de ville qui correspond a un tour fait par le marchand
+ * 
+ */
 public class Tour{
 
     // Holds our tour of cities

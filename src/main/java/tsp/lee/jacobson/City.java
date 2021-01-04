@@ -1,5 +1,9 @@
 package tsp.lee.jacobson;
-
+/**
+ * 
+ * Classe objet pour des villes dans un espace 2D
+ * 
+ */
 public class City {
     int x;
     int y;
