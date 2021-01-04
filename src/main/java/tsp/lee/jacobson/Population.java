@@ -1,5 +1,12 @@
 package tsp.lee.jacobson;
 
+/**
+ * 
+ * @author Maxime
+ * Create a population of tour during cities
+ *
+ */
+
 public class Population {
 
     // Holds population of tours
