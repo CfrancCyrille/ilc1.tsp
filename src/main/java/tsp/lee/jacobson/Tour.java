@@ -3,6 +3,9 @@ package tsp.lee.jacobson;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * Manage city to create Individuals and compute the total distance of the tour
+ */
 public class Tour{
 
     // Holds our tour of cities

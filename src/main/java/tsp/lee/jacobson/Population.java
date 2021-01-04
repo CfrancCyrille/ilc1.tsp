@@ -1,5 +1,8 @@
 package tsp.lee.jacobson;
 
+/**
+ * Manage population and can find the best fitness of its population
+ */
 public class Population {
 
     // Holds population of tours
