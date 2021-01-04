@@ -1,5 +1,8 @@
 package tsp.lee.jacobson;
-
+/**
+ * Class modele de le Population avec la meilleur valeur de fitnesse
+ * @author Sevrin
+ */
 public class Population {
 
     // Holds population of tours

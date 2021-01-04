@@ -2,7 +2,10 @@ package tsp.lee.jacobson;
 
 import java.util.ArrayList;
 import java.util.Collections;
-
+/**
+ * Class modele du tour des villes 
+ * @author Sevrin
+ */
 public class Tour{
 
     // Holds our tour of cities
