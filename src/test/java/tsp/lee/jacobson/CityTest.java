@@ -36,4 +36,13 @@ public class CityTest {
 		assertEquals(attendue, actuelle,0);
 	}
 
+	@Test(expected=NullPointerException.class)
+	/**
+	 * Test la valeur null en paramétre de distanceto
+	 */
+    public void distanceTo_Null_NullException() {
+        City city = new City();
+        city.distanceTo(null);
+    }
+
 }
