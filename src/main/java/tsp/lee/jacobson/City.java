@@ -1,5 +1,8 @@
 package tsp.lee.jacobson;
-
+/**
+ * class describing the city with coordinates
+ * @author Celine Waldner
+ */
 public class City {
     int x;
     int y;
