@@ -29,31 +29,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity | T |  | 
-| getX | D |  | 
-| getY | D |  | 
-| toString | I |  | 
+| distanceToCity | T | Calcul la distance entre les villes | 
+| getX | D | Retourne la coordonnée x | 
+| getY | D | Retourne la coordonnée y | 
+| toString | I | Affichage | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  | D |  |
-| getCity  | D |  |
-| getDistance  | T |  |
-| getFitness  | D |  |
-| setCity  | D |  |
-| tourSize  | D |  |
-| toString  | I |  |
+| containsCity  | D | Regarde si la tour est contenue dans la ville |
+| getCity  | D | Retourne la ville associée a la tour |
+| getDistance  | T | Retourne la distance entre deux tours |
+| getFitness  | D | Retourne la valeur de fitness |
+| setCity  | D | Attribue une ville à la tour |
+| tourSize  | D | Donne la taille de la tour |
+| toString  | I | Affichage de la tour |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  | D |  |
-| getTour  |  D|  |
-| populationSize  | D |  |
-| saveTour  | D |  |
+| getFittest  | D | Retourne la plus haute fitness parmi la population |
+| getTour  | D| Retourne la liste de tours |
+| populationSize  | D | Retourne la taille de la population |
+| saveTour  | D | Permet de sauvegarder la tour |
 
 ## Functions to test now
 
