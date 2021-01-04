@@ -1,5 +1,12 @@
 package tsp.lee.jacobson;
 
+/**
+ * 
+ * @author : Maxime
+ * Define different tour between all the cities
+ * 
+ */
+
 import java.util.ArrayList;
 import java.util.Collections;
 

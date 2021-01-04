@@ -1,5 +1,13 @@
 package tsp.lee.jacobson;
 
+/**
+ * 
+ * @author Maxime
+ * Class which create cities
+ * 
+ */
+
+
 public class City {
     int x;
     int y;
