@@ -8,7 +8,7 @@ import org.junit.Test;
 public class TourTest {
 
 	@Test
-	public void test_GetDistance_DistanceTourNonNul_true() {
+	public void test_GetDistance_DistanceTourNonNul_4() {
             City ville1 = new City(2,2);
             City ville2 = new City(2,3);
             City ville3 = new City(2,4);
@@ -28,7 +28,7 @@ public class TourTest {
 	}
         
         @Test
-	public void test_GetDistance_DistanceTourNul_true() {
+	public void test_GetDistance_DistanceTourNul_0() {
             City ville1 = new City(2,2);
             
             double expected = ville1.distanceTo(ville1);
@@ -42,7 +42,7 @@ public class TourTest {
 	}
         
         @Test
-	public void test_GetDistance_TourVide_true() {
+	public void test_GetDistance_TourVide_0() {
             
             double expected = 0;
          
