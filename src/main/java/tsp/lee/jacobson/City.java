@@ -4,7 +4,7 @@ package tsp.lee.jacobson;
 /**
  * 
  * @author thomas
- *	Créer une ville située à des coordonnées aléatoires et possèdant
+ *	Créer une ville située à des coordonnées aléatoires ou non et possèdant
  *	une fonction permettant de retourner la distance avec une autre ville
  */
 
